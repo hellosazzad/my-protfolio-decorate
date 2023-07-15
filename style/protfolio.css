@@ -161,10 +161,60 @@ main {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skill-container .paragraph-title{
+
+.skill-container .paragraph-title {
 
     color: #757575;
 }
-main-section{
+
+main-section {
     margin-top: 130px;
+}
+
+/* Resume Section */
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-iteam-title {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-iteam-institute.resume-iteam-description {
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+}
+/* Footer section */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 123px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
 }
